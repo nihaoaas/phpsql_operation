@@ -1,0 +1,2 @@
+# phpsql_operation
+mysqli和pdo对mysql数据库的基本操作
