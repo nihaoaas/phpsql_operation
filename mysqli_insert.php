@@ -10,3 +10,4 @@ $stmt->execute();
 $insert_id = $stmt->insert_id;
 echo $stmt->error;
 $stmt->close();
+$con->close();

@@ -9,3 +9,4 @@ $stmt->execute();
 $result = $stmt->get_result();
 $arr = $result->fetch_all(MYSQLI_ASSOC);//$result->fetch_array(MYSQLI_ASSOC) 单行
 $stmt->close();
+$con->close();
